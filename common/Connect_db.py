@@ -24,7 +24,8 @@ conn = pymysql.connect(host = IP,port = Port,user = 'user_dev',passwd = pwd,db =
 
 cursor = conn.cursor()
 
-sql = "SELECT * FROM house_pm_member_t WHERE id = %s or id = %s"
-cursor.execute(sql,args=(78,80))
+sql = "SELECT * FROM house_pm_member_t WHERE id = %s"
+# cursor.execute(sql,args=(78,80))
+cursor.execute(sql,args=(80))
 
 print('fetchall的输出结果：',cursor.fetchall())

@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be65a526-0e2a-43e1-9c31-d01dceaa1ceb" name="Default Changelist" comment="" />
+    <list default="true" id="be65a526-0e2a-43e1-9c31-d01dceaa1ceb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Connect_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/Connect_db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCase/homePageTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCase/homePageTest.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +24,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1t9XNXA9fRwaaRzmh6AyFQ9xum0" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -31,8 +39,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in homePageTest.py">
-    <configuration name="homePage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Connect_db">
+    <configuration name="Connect_db" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="fangyuantest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -40,11 +48,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PO" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PO/homePage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/Connect_db.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -125,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Connect_db" />
         <item itemvalue="Python tests.Unittests in homePageTest.py" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.login" />
         <item itemvalue="Python tests.Unittests in myTest.py" />
-        <item itemvalue="Python.homePage" />
       </list>
     </recent_temporary>
   </component>
@@ -144,6 +152,30 @@
       <option name="presentableId" value="Default" />
       <updated>1622182238236</updated>
     </task>
+    <task id="LOCAL-00001" summary="test1">
+      <created>1638165577778</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1638165577778</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test1" />
+    <MESSAGE value="test2" />
+    <option name="LAST_COMMIT_MESSAGE" value="test2" />
   </component>
 </project>
