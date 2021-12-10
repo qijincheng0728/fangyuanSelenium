@@ -26,17 +26,6 @@ class HomePageTest(MyTest):
         self.driver.implicitly_wait(10)
         self.assertIn('发布房源',self.driver.page_source,'操作失败，请检查')
 
-    # def test_click_WorkAssistant_UserDataAuditAgent(self):
-    #     hp = HomePage(self.driver)
-    #     hp.click_WorkAssistant()
-    #     logger.info('点击工作助理 完成')
-    #     self.driver.implicitly_wait(10)
-    #     hp.click_WorkAssistant_UserDataAuditAgent()
-    #     logger.info('点击用户资料审核待办')
-    #     self.driver.implicitly_wait(10)
-    #     self.assertIn('资料审核代办列表',self.driver.page_source,'操作失败，请检查')
-
-
 if __name__ == '__main__':
     unittest.main(verbosity=2)
 

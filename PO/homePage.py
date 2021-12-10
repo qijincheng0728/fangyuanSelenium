@@ -21,18 +21,8 @@ from common.readConfig import ReadConfig
 class HomePage(BasePage):
     firstpage = (By.XPATH, '/html/body/div[1]/div[1]/div[3]/ul/li[1]/a')
 
-    WorkAssistant = (By.XPATH,'/html/body/div[1]/div[1]/div[3]/ul/li[2]/a/p')
-
-    WorkAssistant_UserDataAuditAgent = (By.LINK_TEXT,"用户资料审核代办工作")
-
     def click_firstpage(self):
         self.by_find_element(self.firstpage).click()
-
-    def click_WorkAssistant(self):
-        self.by_find_element(self.WorkAssistant).click()
-
-    def click_WorkAssistant_UserDataAuditAgent(self):
-        self.by_find_element(self.WorkAssistant_UserDataAuditAgent).click()
 
 if __name__ == '__main__':
     from common.login import login
