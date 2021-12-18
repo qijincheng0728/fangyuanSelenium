@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be65a526-0e2a-43e1-9c31-d01dceaa1ceb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Report/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Report/report20211211113220.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Report/report20211213145635.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runall.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PO/statisticalAnalysisPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/statisticalAnalysisTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/fangyuantest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fangyuantest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/login.py" afterDir="false" />
     </list>
@@ -32,6 +32,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -46,27 +47,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.runall">
-    <configuration name="housingInformationManagementPage" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="fangyuantest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PO" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PO/housingInformationManagementPage.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="login" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="fangyuantest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -109,6 +89,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="statisticalAnalysisPage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="fangyuantest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PO" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PO/statisticalAnalysisPage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests in housingInformationManagementTest.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="fangyuantest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -123,7 +124,7 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in workAssistantTest.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in statisticalAnalysisTest.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="fangyuantest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -133,17 +134,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/testCase/workAssistantTest.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testCase/statisticalAnalysisTest.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.runall" />
+        <item itemvalue="Python tests.Unittests in statisticalAnalysisTest.py" />
+        <item itemvalue="Python.statisticalAnalysisPage" />
         <item itemvalue="Python.login" />
         <item itemvalue="Python tests.Unittests in housingInformationManagementTest.py" />
-        <item itemvalue="Python.housingInformationManagementPage" />
-        <item itemvalue="Python tests.Unittests in workAssistantTest.py" />
       </list>
     </recent_temporary>
   </component>

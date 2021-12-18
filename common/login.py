@@ -24,12 +24,13 @@ class login():
     PassWordXPath = '/html/body/div[1]/div/div[1]/div/div/div/form/div/div[2]/div[2]/div/input'
     LoginButton = '/html/body/div[1]/div/div[1]/div/div/div/form/div/div[3]/button'
 
-    chrome_options = webdriver.ChromeOptions()
+    chrome_options = webdriver.ChromeOptions() #设置option
 
-    chrome_options.add_experimental_option('useAutomationExtension', False)
-    chrome_options.add_experimental_option("excludeSwitches", ['enable-automation'])
-    chrome_options.add_argument('--start-maximized')
-    # chrome_options.add_argument('--headless')
+    chrome_options.add_experimental_option('useAutomationExtension', False) #option中设置不显示自动化一
+    chrome_options.add_experimental_option("excludeSwitches", ['enable-automation']) #option中设置不显示自动化二
+    chrome_options.add_argument('--start-maximized') #option中设置最大化窗口
+    # chrome_options.add_argument('--headless') #option中设置不显示窗口
+    chrome_options.add_argument('--incognito') #option中设置无痕模式
 
 
     def __init__(self):
